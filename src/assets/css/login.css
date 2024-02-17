@@ -1,0 +1,408 @@
+:root {
+    accent-color: black;
+  }
+  
+  /* Note: Size in Safari will be improved but smaller than results in other browsers */
+  [type="radio"] {
+    font-size: inherit;
+    width: 0.75em;
+    height: 0.75em;
+  }
+  .login-main {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  .login-main .content-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 100vh;
+  }
+  .login-main .banner-part {
+    display: flex;
+    flex: 1 1 auto;
+    height: 100%;
+    background: #fdf5f2;
+    align-items: center;
+    justify-content: center;
+  }
+  .login-main .banner-part .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+  }
+  .login-main .banner-part .banner-content img {
+    width: 50%;
+    opacity: 0.9;
+  }
+  .login-main .banner-part .banner-content .text-part {
+    display: flex;
+    max-width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .login-main .banner-part .banner-content .text-part h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+  }
+  .login-main .banner-part .banner-content .text-part p {
+    margin: 0;
+    font-size: 14px;
+    color: #adadad;
+  }
+  .login-main .form-part {
+    display: flex;
+    padding: 0px 100px;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    height: 100%;
+  }
+  .login-main .form-part .close-btn {
+    all: unset;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+  }
+  .login-main .form-part .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .login-main .form-part .content .header-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+  }
+  .login-main .form-part .content .header-part h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    color: #1D2432;
+  }
+  .login-main .form-part .content .header-part p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1D2432;
+    margin: 0;
+  }
+  .login-main .form-part .content .middle-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    gap: 10px;
+  }
+  .login-main .form-part .content .middle-form .input-part {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+  }
+  .login-main .form-part .content .middle-form .input-part .menu-flags{
+    padding-bottom: 0;
+  }
+  .login-main .form-part .content .middle-form .input-part .menu-flags .menu-flags-button{
+    border: none;
+    font-weight: 400;
+    color: #adadad;
+    padding: 0;
+  }
+  .login-main .form-part .content .middle-form .input-part .menu-flags .menu-flags-button:after{
+    margin: 0;
+    border-top: 5px solid #adadad;
+  }
+  .login-main .form-part .content .middle-form .input-part .menu-flags .menu-flags-button[aria-expanded="true"]:after {
+    border-bottom: 5px solid #adadad;
+    border-top: 0;
+    margin-bottom: 2px;
+  }
+  .login-main .form-part .content .middle-form .input-part .menu-flags .selectOptions{
+    width: 100px;
+  }
+  .login-main .form-part .content .middle-form .input-part p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+    margin-right: 15px;
+  }
+  .login-main .form-part .content .middle-form .input-part input {
+    all: unset;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .login-main .form-part .content .middle-form .info-text {
+    width: 85%;
+    font-size: 10px;
+    font-weight: 400;
+    color: #adadad;
+    text-decoration: none;
+  }
+  .login-main .form-part .content .middle-form .info-text a {
+    text-decoration: none;
+    color: #ff6f48;
+    font-weight: 500;
+  }
+  .info-text{
+    color: #ff6f48;
+
+  }
+  .login-main .form-part .content .action-part {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-main .form-part .content .action-part .btn-orange {
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 30px;
+    background: #ff6f48;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: white;
+    border: 1px solid #ff6f48;
+    font-weight: 600;
+  }
+  .login-main .form-part .content .action-part .btn-orange:hover {
+    color: #ff6f48;
+    background-color: #fff;
+  }
+  .login-main .form-part .content .action-part .btn-orange.outline {
+    background: #fff;
+    border: 1px solid #ff6f48;
+    color: #ff6f48;
+    font-weight: 600;
+  }
+  .login-main .form-part .content .action-part .btn-orange.outline:hover {
+    color: white;
+    background: #ff6f48;
+  }
+  .login-main .form-part .content .action-part .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 32px;
+  }
+  .login-main .form-part .content .action-part .divider span {
+    width: 100%;
+    background: #EAEAEA;
+    height: 1px;
+  }
+  .login-main .form-part .content .action-part .divider .text {
+    margin: 0;
+    padding: 5px 8px;
+    background-color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ADADAD;
+  }
+  .content-modal {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    position: relative;
+  }
+  .content-modal .top-btn-part {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .content-modal .top-btn-part .close-btn{
+    position: absolute;
+    top: -40px;
+    right: -30px;
+  }
+  .content-modal .modal-inside-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .content-modal .modal-inside-content .edit-badge {
+    background-color: #ff6f4833 !important;
+    color: #ff6f48 !important;
+    padding: 6px 10px;
+      margin-left: 10px;
+      font-size: 10px;
+      font-weight: 500;
+  }
+  .content-modal .modal-inside-content .heading {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1D2432;
+  }
+  .content-modal .modal-inside-content .desc-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1D2432;
+    margin: 0;
+  }
+  .content-modal .modal-inside-content .mobileno {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #1D2432;
+    display: flex;
+    align-items: center;
+  }
+  .content-modal .modal-inside-content .otp-input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .content-modal .modal-inside-content .otp-input-group input {
+    width: 52px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1D2432;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+  }
+  
+  .content-modal .modal-inside-content .otp-input-group input:focus {
+    outline: none;
+    border-color: #EAEAEA;
+  }
+  .content-modal .modal-inside-content .btn-continue {
+      all: unset;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 90px;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #ff6f48;
+      border-radius: 30px;
+  }
+  
+  .content-modal .modal-inside-content .notreceive-text {
+      color: #adadad;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0;
+  }
+  .content-modal .modal-inside-content .resend-btn {
+      all: unset;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ff6f48;
+      margin: -10px 0;
+  }
+  .content-modal .modal-inside-content .timer {
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 25px;
+      color: #1D2432;
+  }
+  
+  .react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color:transparent !important; 
+    border: none !important;
+   border-radius:none !important;
+  }
+  
+  .react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px !important;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    /* height: 52px !important; */
+    width: 300px;
+    outline: none;
+  }
+  .field-error {
+    border: 2px solid red !important;
+    outline: none !important;
+    box-shadow:  0 0 0.25rem rgba(13,110,253,.25)
+  }
+  
+  .field-error:focus  , .field-error > .form-control:focus{
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.667) !important;
+    /* Add a box shadow for more emphasis */
+  
+  }
+  .resend-btn:disabled {
+    /* Add your styles for the disabled button here */
+    cursor: not-allowed; /* Shows a 'not allowed' cursor */
+    opacity: 0.5; /* Optionally make the button look faded */
+    /* Remove other styles that may indicate interactivity */
+  }
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .banner-part {
+        display: none !important; /* Hide banner on small screens */
+    }
+    .form-part {
+        width: 100% !important; /* Full width on small screens */
+    }
+    .content-wrapper {
+        flex-direction: column !important;
+    }
+    /* Add more responsive styles as needed */
+  }
+  
+  /* login.css */
+  .mobile-logo {
+    display: none; /* Hide logo by default */
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-logo {
+      display: block; /* Show logo on mobile screens */
+    }
+  }
+  
