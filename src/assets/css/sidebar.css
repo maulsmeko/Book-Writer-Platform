@@ -1,0 +1,88 @@
+.dropdown-item:focus, .dropdown-item:hover  ,.dropdown-item:hover > .text-black {
+
+    color: white !important;
+    background-color: #ff6036 !important;
+  
+  }
+  .sidebar-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    width: 100%;
+    height: 100vh;
+    gap: 40px;
+    overflow-y: scroll;
+  }
+  .sidebar-main .logo-part {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sidebar-main .btn-add {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    padding: 15px 15px;
+    background-color: #ff6036;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+    border-radius: 12px;
+    transition: all ease 0.3s;
+    border-radius: 8px;
+  }
+  .sidebar-main .btn-add:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
+  .sidebar-main .nav-part {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 5px;
+  }
+  .sidebar-main .nav-part .bottom-logoutpart {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .sidebar-main .nav-part .bottom-logoutpart .logout-btn,
+  .sidebar-main .nav-part .top-navpart .nav-btn {
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    color: black;
+    background: transparent;
+  }
+  .sidebar-main .nav-part .icon {
+    width: 18px;
+  }
+  .sidebar-main .nav-part .text {
+    font-size: 16px;
+    margin: 0;
+  }
+  .sidebar-main .nav-part .top-navpart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .sidebar-main .nav-part .top-navpart .nav-btn.active .text {
+      color: #ff6036;
+  }
+  
+  .heart > svg{
+    fill: #ff6036;
+  } 
+  
+  .dropdown-item .active{
+    background-color: #ff6036 !important;
+  }

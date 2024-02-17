@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "email": "maulik27@gmail.com",
+      "password": "$2a$10$L4aBwJG77rANOiZmaZEclORZ9lgiC5RZBq.vhesrnWlruRaoq.qdy",
+      "name": "Maulik",
+      "role": "author",
+      "id": 1
+    },
+    {
+      "email": "maulik@collab.com",
+      "password": "$2a$10$5z821sLuDKKqM0Fdx8X/A.7hdK3moMuZT2smUbtSHZOKwiSzVjrre",
+      "name": "Maulik Collab",
+      "role": "collaborator",
+      "id": 2
+    },
+    {
+      "email": "vishal27@gmail.com",
+      "password": "$2a$10$K/MrA.tpzCFRzQ2UlarI9ue7pH40D6cd7nZp8uTbCE.c8NwO1V9m6",
+      "name": "Vishal Collab",
+      "role": "collaborator",
+      "id": 3
+    },
+    {
+      "email": "maulik@123.com",
+      "password": "$2a$10$NFwrdHbPi6pPzcQArqV9Mua7FYCQKeme7OUDSi3TfDLxINbigqfMi",
+      "name": "Maulik",
+      "role": "author",
+      "id": 4
+    },
+    {
+      "email": "maulikcollab@123.com",
+      "password": "$2a$10$gz7o62b2Nph3PgWWEBh0x.LSEqwVXErVJolpJtfi/n9QGVbPQgzVy",
+      "name": "Maulik",
+      "role": "collaborator",
+      "id": 5
+    },
+    {
+      "email": "maulik@123w.com",
+      "password": "$2a$10$Gum94AG4FE8XEVAvD3hD2.WGWtyk8AKZVXxVeVPThuGylzEpkH4zy",
+      "name": "Maulik",
+      "role": "author",
+      "id": 6
+    },
+    {
+      "email": "mshah7329@gmail.com",
+      "password": "$2a$10$pB0tMJe/CdnrjZqNKlr2CufMzBVvjyyXajLRvcU8HzXyympAWOzt2",
+      "name": "nivan",
+      "role": "collaborator",
+      "id": 7
+    },
+    {
+      "email": "admin@l.com",
+      "password": "$2a$10$tzCjPud8ZDIuiZmxsVZuSOzpuTvGKe9lF53IZMiC9I5rr7wcSm8vm",
+      "name": "Maulik corporate",
+      "role": "collaborator",
+      "id": 8
+    },
+    {
+      "email": "maulik.s@solarisgroup.com",
+      "password": "$2a$10$y6jav422pj93AcJJ7BI3gujJ20nF4iWBsK3oLqxQmcPlTmTakMxO6",
+      "name": "Maulik",
+      "role": "collaborator",
+      "id": 9
+    },
+    {
+      "email": "br@gmail.com",
+      "password": "$2a$10$H2/E4R43z9gmqzmgeFqnjefgg2TeuGptNk/vw7dHkNLEp0y1uSNMm",
+      "name": "Btrije",
+      "role": "author",
+      "id": 10
+    },
+    {
+      "email": "maulik50@gmail.com",
+      "password": "$2a$10$xmCc0.tPVjb0/VshXF08Me9K34chaDYySMNry65WkNMGPko1mHbw.",
+      "name": "Maulik-Author",
+      "role": "author",
+      "id": 11
+    },
+    {
+      "email": "maulik.author@gmail.com",
+      "password": "$2a$10$KSR9UcpBHo6BnDIzwcAFHuwADE1C07zGbodz1frw1L7GCff.Hpjeu",
+      "name": "Maulik--Author",
+      "role": "author",
+      "id": 12
+    }
+  ],
+  "books": [
+    {
+      "title": "jacl",
+      "category": "Cat",
+      "description": "Desc",
+      "author": 1,
+      "collaborators": [
+        {
+          "key": "Vishal Collab",
+          "value": 3
+        },
+        {
+          "key": "nivan",
+          "value": 7
+        }
+      ],
+      "sections": [],
+      "id": 1
+    },
+    {
+      "title": "Title",
+      "category": "Category",
+      "description": "Desc",
+      "author": 11,
+      "collaborators": [
+        {
+          "key": "Vishal Collab",
+          "value": 3
+        },
+        {
+          "key": "nivan",
+          "value": 7
+        },
+        {
+          "key": "Maulik",
+          "value": 9
+        },
+        {
+          "key": "Maulik corporate",
+          "value": 8
+        }
+      ],
+      "sections": {
+        "id": 1,
+        "items": [
+          {
+            "id": 1708199013974,
+            "name": "No",
+            "items": [
+              {
+                "id": 1708199020593,
+                "name": "Tes",
+                "items": [
+                  {
+                    "id": 1708199026180,
+                    "name": "Test6",
+                    "items": [
+                      {
+                        "id": 1708199034236,
+                        "name": "*9-",
+                        "items": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 1708199042835,
+            "name": "Section6",
+            "items": []
+          }
+        ]
+      },
+      "id": 2
+    },
+    {
+      "title": "",
+      "category": "",
+      "description": "",
+      "author": 1,
+      "collaborators": [
+        {
+          "key": "Vishal Collab",
+          "value": 3
+        },
+        {
+          "key": "nivan",
+          "value": 7
+        },
+        {
+          "key": "Maulik corporate",
+          "value": 8
+        },
+        {
+          "key": "Maulik",
+          "value": 5
+        },
+        {
+          "key": "Maulik Collab",
+          "value": 2
+        }
+      ],
+      "sections": [],
+      "id": 3
+    },
+    {
+      "title": "Hi",
+      "category": "V",
+      "description": "D",
+      "author": 12,
+      "collaborators": [
+        {
+          "key": "Vishal Collab",
+          "value": 3
+        },
+        {
+          "key": "Maulik",
+          "value": 5
+        }
+      ],
+      "sections": [],
+      "id": 4
+    }
+  ]
+}
